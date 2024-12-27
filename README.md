@@ -21,11 +21,17 @@ a.Ensure the following are installed on your system:
 Python 3.7 or higher
 Google Colab (for local or online development)
 Installation
-a.Clone this repository:
+1.Clone this repository:
   git clone https://github.com/your-username/disease-predictor.git  
   cd disease-predictor 
-b.Install the required libraries:
+2.Install the required libraries:
   pip install streamlit pandas matplotlib seaborn scikit-learn imbalanced-learn  
-c.Mount Google Drive (for accessing datasets in Colab):
+3.Mount Google Drive (for accessing datasets in Colab):
   from google.colab import drive  
   drive.mount('/content/drive') 
+4.Upload the datasets intoy your google drive and then add the path name into your code
+5.Run the Application
+a.Save the app code as app.py in your working directory or Colab environment.
+
+b.Start the Streamlit server:
+  ! streamlit run app.py & npx localtunnel --port 8501
