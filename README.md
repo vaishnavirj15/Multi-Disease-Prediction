@@ -24,13 +24,13 @@ Pre-requisites
 
 a.Ensure the following are installed on your system:
   Python 3.7 or higher
-  Google Colab (for local or online development)
+  You can use Google Colab (for online development)
   
 Installation
 
 1.Clone this repository:
 
-  git clone https://github.com/your-username/disease-predictor.git  
+  git clone https://github.com/your-username/multi-disease-prediction.git  
   cd disease-predictor 
   
 2.Install the required libraries:
