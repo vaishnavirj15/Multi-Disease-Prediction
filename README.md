@@ -31,7 +31,7 @@ Installation
 1.Clone this repository:
 
   git clone https://github.com/your-username/multi-disease-prediction.git  
-  cd disease-predictor 
+  cd multi-disease-prediction 
   
 2.Install the required libraries:
 
