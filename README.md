@@ -42,18 +42,18 @@ With a focus on accuracy and usability, the platform employs **Random Forest** a
    ```bash
    pip install streamlit pandas matplotlib seaborn scikit-learn imbalanced-learn
 3. **Prepare the dataset**:
-   - **Download the datasets and upload them to your Google Drive (if using Colab).
-   - **Update the code with the correct path to the datasets.
+   - **Download the datasets and upload them to your Google Drive (if using Colab)**.
+   - **Update the code with the correct path to the datasets**.
 ### **Running the application**:
 1. **Save the app code**:
-   - **Ensure the main Streamlit code is saved as app.py in your working directory or Colab environment.
+   - **Ensure the main Streamlit code is saved as app.py in your working directory or Colab environment**.
 2. **Start the Streamlit server**:
-   - **If working locally, run:
+   - **If working locally, run**:
      ```bash
      streamlit run app.py
-   - **For Colab users, run:
+   - **For Colab users, run**:
      ```bash
      !streamlit run app.py & npx localtunnel --port 8501
 3. **Access the Application**:
-   - **Open the generated link from the localtunnel command in your browser to access the app.
+   - **Open the generated link from the localtunnel command in your browser to access the app**.
 
