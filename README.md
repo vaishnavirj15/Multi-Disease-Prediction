@@ -3,7 +3,7 @@
 
 This interactive web-based platform, built using **Streamlit**, enables users to assess the risk of certain diseases based on their health metrics. The application leverages machine learning models to predict the likelihood of **Diabetes**, **Stroke**, or **Framingham Heart Disease** based on user input. 
 
-With a focus on accuracy and usability, the platform employs **Random Forest** and **Logistic Regression** models, achieving up to **90% accuracy** for stroke prediction.
+With a focus on accuracy and usability, the platform employs **Random Forest** and **Logistic Regression** models, achieving up to **90% accuracy** for stroke prediction. Addresses class imbalance through impelementing SMOTE.
 
 ---
 
@@ -56,4 +56,6 @@ With a focus on accuracy and usability, the platform employs **Random Forest** a
      !streamlit run app.py & npx localtunnel --port 8501
 3. **Access the Application**:
    - **Open the generated link from the localtunnel command in your browser to access the app**.
+4. **Recent code**:
+   - **app.py is the latest and improved version of the code**.
 
