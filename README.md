@@ -41,12 +41,13 @@ An **interactive web-based platform** built with **Streamlit** that empowers use
 ```bash
 git clone https://github.com/vaishnavirj15/Multi-Disease-Prediction.git
 cd Multi-Disease-Prediction
-
+```
 
 2.**Install Dependencies**:
 
 ```bash
 pip install streamlit pandas matplotlib seaborn scikit-learn imbalanced-learn
+```
 3. **Prepare datasets**:
 
 *Upload datasets to Google Drive (if using Colab) or local folder*.
@@ -57,25 +58,26 @@ pip install streamlit pandas matplotlib seaborn scikit-learn imbalanced-learn
 Ensure app.py is in your working directory.
 
 Locally:
-bash
-Copy code
+```bash
 streamlit run app.py
+```
 Colab:
-bash
-Copy code
+```bash
+
 !streamlit run app.py & npx localtunnel --port 8501
-Open the generated link from the localtunnel command in your browser to access the app.
+```
+---
+##📊 Project Impact
+**Demonstrates end-to-end machine learning workflow: data collection → preprocessing → model training → evaluation → deployment.**
 
-📊 Project Impact
-Demonstrates end-to-end machine learning workflow: data collection → preprocessing → model training → evaluation → deployment.
+**Provides real-time health risk predictions, supporting proactive health management.**
 
-Provides real-time health risk predictions, supporting proactive health management.
+**A portfolio-worthy project showcasing ML modeling, data analysis, and interactive web deployment for recruiters in data science, AI, and healthcare analytics roles.**
 
-A portfolio-worthy project showcasing ML modeling, data analysis, and interactive web deployment for recruiters in data science, AI, and healthcare analytics roles.
+---
+##📂 Repository Contents
+-app.py – Main Streamlit application
 
-📂 Repository Contents
-app.py – Main Streamlit application
+-diabetes.csv, framingham.csv, healthcare-dataset-stroke-data.csv – Source datasets
 
-diabetes.csv, framingham.csv, healthcare-dataset-stroke-data.csv – Source datasets
-
-healthmodel.ipynb – ML modeling, EDA, and preprocessing notebook
+-healthmodel.ipynb – ML modeling, EDA, and preprocessing notebook
