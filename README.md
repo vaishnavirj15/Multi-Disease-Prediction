@@ -67,7 +67,7 @@ Colab:
 !streamlit run app.py & npx localtunnel --port 8501
 ```
 ---
-##📊 Project Impact
+📊 Project Impact
 **Demonstrates end-to-end machine learning workflow: data collection → preprocessing → model training → evaluation → deployment.**
 
 **Provides real-time health risk predictions, supporting proactive health management.**
@@ -75,7 +75,7 @@ Colab:
 **A portfolio-worthy project showcasing ML modeling, data analysis, and interactive web deployment for recruiters in data science, AI, and healthcare analytics roles.**
 
 ---
-##📂 Repository Contents
+📂 Repository Contents
 -app.py – Main Streamlit application
 
 -diabetes.csv, framingham.csv, healthcare-dataset-stroke-data.csv – Source datasets
